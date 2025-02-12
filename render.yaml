@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: inkspiff-demo-api-repo
+    env: node
+    region: oregon 
+    plan: free 
+    buildCommand: npm install && npm run build && npx prisma generate
+    startCommand: npm run start
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: PORT
+        value: 3000
+      - key: CLEAR_PASSWORD
+        sync: false
