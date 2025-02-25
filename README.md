@@ -1,4 +1,4 @@
-# Inkspiff Demo API Repository
+# Inkspiff Demo API
 
 Welcome to the **Inkspiff Demo API Repository**! This project is a TypeScript-based backend service designed to handle contact-related operations efficiently. It utilizes **Prisma** as an ORM for seamless database interactions and follows the MVC architecture principles for a clean separation of concerns.
 
